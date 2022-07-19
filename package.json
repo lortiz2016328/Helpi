@@ -1,0 +1,23 @@
+{
+  "name": "gestion-hoteles.nd",
+  "version": "1.0.0",
+  "description": "backend de gestion de hoteles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Grupo - 3",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.8",
+    "node.js": "^0.0.1-security",
+    "nodemon": "^2.0.15",
+    "underscore": "^1.13.4"
+  }
+}
