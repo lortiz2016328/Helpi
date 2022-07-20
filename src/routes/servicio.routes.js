@@ -13,4 +13,4 @@ api.get('/buscarServicioNombre/:nombreServicio', md_autenticacion.Auth, modeloSe
 api.get('/servicios', md_autenticacion.Auth, modeloServicio.obtenerServicios);
 api.get('/servicios/:idServicio',  modeloServicio.ObtenerServiciosId);
 
-module.exports = api;
+module.exports = api;                                                                                                                                                                
